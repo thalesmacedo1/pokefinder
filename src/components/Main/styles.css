@@ -1,0 +1,33 @@
+#main {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.pokemonlist {
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 12px 0px;
+}
+
+.pokemonlist li {
+    list-style: none;
+    background: #F4CD06;
+    color: #232323;
+    font-weight: bold;
+    border-radius: 4px;
+
+    text-align: center;
+    margin: 4px;
+    padding: 14px 44px;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}

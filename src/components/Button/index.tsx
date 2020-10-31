@@ -5,6 +5,7 @@ import "./styles.css";
 interface Props {
     label: string;
     href: string | null;
+    onClick: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 const Button: React.FC<Props> = ({ label }) => {
